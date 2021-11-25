@@ -8,7 +8,7 @@ public class NumeroAleatorio {
 		int contador;
 		
 		array = aux;
-
+		System.out.println("Hola");
 
 		for (int i = 0; i < array.length; i++) {
 			array[i] = (int) (Math.random()*30);
@@ -20,7 +20,7 @@ public class NumeroAleatorio {
 					
 				}
 				System.out.println(array[i] + " se repite " + contador);
-
+				System.out.println("Holaaa de nuevo");
 		int[] array = new int[20];
 		int[] num = new int[20];
 
